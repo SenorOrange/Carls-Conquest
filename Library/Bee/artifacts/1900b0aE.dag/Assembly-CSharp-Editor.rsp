@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Simple 2D Platformer BE2/ReadMe/Scripts/Editor/ReadmeEditorBE2.cs"
 "Assets/UnityTechnologies/Playground/_INTERNAL_/Scripts/Editor/Attributes/BulletAttrInspector.cs"
 "Assets/UnityTechnologies/Playground/_INTERNAL_/Scripts/Editor/Attributes/CollectableAttrInspector.cs"
 "Assets/UnityTechnologies/Playground/_INTERNAL_/Scripts/Editor/Attributes/DestroyForPointsAttrInspector.cs"
