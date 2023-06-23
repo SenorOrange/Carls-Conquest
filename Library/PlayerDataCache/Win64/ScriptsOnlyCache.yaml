@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BalloonScript
     - CameraFollow
     - CollectableAttribute
+    - DialogueSystem
     - FollowTarget
     - HealthSystemAttribute
     - HealthSystemEnemy
@@ -13,6 +15,8 @@ ScriptsOnlyBuild:
     - ObjectShooter
     - Patrol
     - PlayerAnimations
+    - UIItemScript
+    - UIScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -24,6 +28,15 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -39,6 +52,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.RectOffset
     UnityEngine.IMGUIModule:
     - UnityEngine.GUISettings
     - UnityEngine.GUIStyle
@@ -47,6 +63,9 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/crawlerV3.unity:
@@ -87,33 +106,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 648}
     - Class: 114
-      Script: {instanceID: 2150}
+      Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 2636}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 1772}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2148}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 3744}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 4028}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 4278}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3134}
+    - Class: 114
+      Script: {instanceID: 3220}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 3742}
+    - Class: 114
+      Script: {instanceID: 4026}
+    - Class: 114
+      Script: {instanceID: 4276}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5166}
+    - Class: 114
+      Script: {instanceID: 5242}
+    - Class: 114
+      Script: {instanceID: 5462}
     - Class: 114
       Script: {instanceID: 5504}
     - Class: 114
       Script: {instanceID: 5522}
     - Class: 114
       Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 6318}
     - Class: 114
       Script: {instanceID: 7242}
     - Class: 114
@@ -130,6 +173,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     - Class: 1818360608
       Script: {instanceID: 0}
   scriptHashData:
@@ -145,12 +194,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: a1aa98c78061c6f03a8c124cda576e67
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -843,6 +886,12 @@ ScriptsOnlyBuild:
     className: DialogueBalloonAction
   - hash:
       serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
       Hash: e903a63709a9bd02b06a7e303ca27b87
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1150,5 +1199,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/crawlerV3.unity
-  playerPath: C:/Users/1475663/OneDrive - Comox Valley Schools/Downloads/New folder/New
-    Unity Project.exe
+  playerPath: C:/Users/1475663/OneDrive - Comox Valley Schools/Downloads/Carls Conquest/Carls
+    Conquest.exe
